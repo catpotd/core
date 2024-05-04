@@ -209,10 +209,10 @@
     "@babel/helper-validator-identifier" "^7.22.20"
     to-fast-properties "^2.0.0"
 
-"@cesium/engine@^9.0.0":
-  version "9.0.0"
-  resolved "https://registry.yarnpkg.com/@cesium/engine/-/engine-9.0.0.tgz#74573f52100ef84ba5fcde9cd1084c07f7fe2fa7"
-  integrity sha512-GIeBitHo1t6OwgWnxAsCoHuCcJEfdki2G0hbKfaP87r2EapbnDLBmfxZziscl1ksv7kQiQ6x2FOOSPuV9QFvhA==
+"@cesium/engine@^9.1.0":
+  version "9.1.0"
+  resolved "https://registry.yarnpkg.com/@cesium/engine/-/engine-9.1.0.tgz#5571a54cff9dd840d77445b88c00f8b0c3ce5cab"
+  integrity sha512-sDscnq8Tl2tSJCJRoxlrTSj2TfdsZr8zOXyrj6bLJaqBDuf53vgPS5Y5D+WKbwUomZ/hI2EIlMtLD2Ev4MwnAg==
   dependencies:
     "@tweenjs/tween.js" "^23.1.1"
     "@zip.js/zip.js" "^2.7.34"
@@ -234,12 +234,12 @@
     topojson-client "^3.1.0"
     urijs "^1.19.7"
 
-"@cesium/widgets@^6.0.0":
-  version "6.0.0"
-  resolved "https://registry.yarnpkg.com/@cesium/widgets/-/widgets-6.0.0.tgz#be68f2b696bd6239cd37d63abd429e0608a9a0cb"
-  integrity sha512-zq0UqHji4PgPWTVdUB2hNb/FXe60eNDB11oW35/Z3REQfE4LBOkeR/RGck7hBOfYaubMiqwuwOw2lbl54OXzIA==
+"@cesium/widgets@^6.1.0":
+  version "6.1.0"
+  resolved "https://registry.yarnpkg.com/@cesium/widgets/-/widgets-6.1.0.tgz#b0a02f99300fbc61acb82f741e4750e8194298fb"
+  integrity sha512-wNPEsHFXiDOwosf+6O3+daee83t+lL/1lXxmK2dOKe5tV4h5BBIFAq8A8ttSmdAhDj+WVMS/ZGCvIi5Y87GTpw==
   dependencies:
-    "@cesium/engine" "^9.0.0"
+    "@cesium/engine" "^9.1.0"
     nosleep.js "^0.12.0"
 
 "@esbuild/aix-ppc64@0.20.2":
@@ -817,13 +817,13 @@ caniuse-lite@^1.0.30001587:
   resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001608.tgz#7ae6e92ffb300e4b4ec2f795e0abab456ec06cc0"
   integrity sha512-cjUJTQkk9fQlJR2s4HMuPMvTiRggl0rAVMtthQuyOlDWuqHXqN8azLq+pi8B2TjwKJ32diHjUqRIKeFX4z1FoA==
 
-cesium@1.116.0:
-  version "1.116.0"
-  resolved "https://registry.yarnpkg.com/cesium/-/cesium-1.116.0.tgz#34c025babb49dfc4eeb98f9c83c37094a2083388"
-  integrity sha512-RZOOMePztCVb74JU/DTCTfuha7xTsJtEm3FRZeMUXyZABeRhbYjT1GwtAtoaPPJ5/IoqNjLvZnTNJdnU3LVE5g==
+cesium@1.117.0:
+  version "1.117.0"
+  resolved "https://registry.yarnpkg.com/cesium/-/cesium-1.117.0.tgz#fa37a2b19721f0be43f04494062c7163cf138416"
+  integrity sha512-gJ4J8oLgDTAYEGL69vK395MTjYDzxdLw4MqBXAXi9G2bhAp0U2DfxwuRqDcyW1SFdJVHj6ekcOBHszTMbmBOOA==
   dependencies:
-    "@cesium/engine" "^9.0.0"
-    "@cesium/widgets" "^6.0.0"
+    "@cesium/engine" "^9.1.0"
+    "@cesium/widgets" "^6.1.0"
 
 chalk@^2.4.2:
   version "2.4.2"
